@@ -28,15 +28,15 @@ footer {
     align-items: center;
     padding: 0 100px;
 }
-#header-links a:link {
+#bar nav a:link {
     color: #E5E7EB;
     font-size: 18px;
 }
-#header-links a:visited {
+#bar nav a:visited {
     color: #E5E7EB;
     font-size: 18px;
 }
-#header-links a:hover {
+#bar nav a:hover {
     color: #3882F6;
     font-size: 18px;
 }
@@ -79,11 +79,6 @@ footer {
     flex-direction: column;
     padding: 50px 300px 100px 300px;
 }
-#random-pics {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 #random h1 {
     font-size: 36px;
     font-weight: bolder;
@@ -91,7 +86,19 @@ footer {
     display: flex;
     justify-content: center;
 }
+#random section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#random section .random-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 #random figcaption {
+    margin-top: 10px;
     text-align: center;
 }
 .random-pics img {
@@ -99,11 +106,6 @@ footer {
     height: 10vh;
     border: 3px solid #3882F6;
     border-radius: 10px;
-}
-#random-pics .random-pics {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 #quote {
