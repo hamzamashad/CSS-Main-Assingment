@@ -18,6 +18,7 @@ footer {
     color: #F9FAF8;
     padding: 20px;
 }
+
 #bar {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -39,12 +40,14 @@ footer {
     color: #3882F6;
     font-size: 18px;
 }
+
 #front {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    gap: 10px;
     padding: 100px 100px;
 }
 #front h1 {
@@ -70,6 +73,7 @@ footer {
     border-radius: 5px;
     border-style: solid;
 }
+
 #random {
     display: flex;
     flex-direction: column;
@@ -101,6 +105,7 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
+
 #quote {
     background-color: #E5E7EB;
     font-size: 36px;
@@ -111,6 +116,7 @@ footer {
 #quote #citation {
     text-align: right;
 }
+
 #call {
     background-color: #3882F6;
     display: flex;
