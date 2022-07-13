@@ -57,6 +57,10 @@ footer {
     font-size: 18px;
     color: #E5E7EB;
 }
+#front img {
+    width: auto;
+    height: 40vh;
+}
 #front button {
     background-color: #3882F6;
     color: #F9FAF8;
