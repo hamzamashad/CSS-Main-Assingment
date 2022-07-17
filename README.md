@@ -1,2 +1,2 @@
-# CSS-Main-Assingment
- link: https://hamzamashad.github.io/CSS-Main-Assingment/
+# random-content-to-try-CSS
+ link: https://hamzamashad.github.io/random-content-to-try-CSS/
